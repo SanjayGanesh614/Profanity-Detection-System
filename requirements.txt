@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+websockets
+sqlalchemy
+pydantic
+pydantic-settings
+transformers
+torch
+httpx
+python-dotenv
+pydub
+groq
+faster-whisper
+pyannote.audio
+numpy
+streamlit
+pyaudio
