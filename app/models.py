@@ -12,3 +12,9 @@ class Log(Base):
     transcript = Column(String)
     toxicity_score = Column(Float)
     is_violation = Column(Boolean, default=False)
+
+class User(Base):
+    __tablename__ = "users"
+
+    speaker_id = Column(String, primary_key=True, index=True)
+    name = Column(String)
